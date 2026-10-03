@@ -1,0 +1,49 @@
+
+body {
+    background-color: midnightblue;
+    color: rgb(65, 134, 207);
+    font-family: fantasy;
+}
+
+.hero-name {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(220, 116, 156);
+    text-shadow: 5px 5px rgb(141, 12, 62);
+
+}
+
+.tagline {
+    font-style: oblique;
+    color: lightcoral;
+    text-transform: capitalize;
+}
+
+.label {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgb(149, 72, 236);
+}
+
+.power {
+    font-weight: bold;
+    color: rgb(89, 138, 234);
+}
+
+.weakness {
+    text-decoration: line-through;
+    color: black;
+}
+
+.badge {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(233, 214, 71);
+    transform: rotate(15deg);
+}
+
+.made-by {
+    color: rgb(121, 239, 239);
+    font-style: italic;
+}
+

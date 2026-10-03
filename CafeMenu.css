@@ -1,0 +1,72 @@
+body {
+    background-image: linear-gradient(to bottom, #FFF3E0, #f0af9b, #f78563);
+    }
+
+.restaurant {
+    text-align: center;
+    color: #7B1E1E;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 42px;
+    text-transform: capitalize;
+    text-shadow: 3px 3px #360202 ;
+}
+
+.tagline {
+    text-align: center;
+    color: #6D4C41;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.section-h2 {
+    text-align: center;
+    color: #A52A2A;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.items {
+    text-align: left;
+    color: #3E2723;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.price {
+    text-align: right;
+    color: #A52A2A;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.description {
+    color: #795548;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.banner {
+    text-align: center;
+    font-size: 40px;
+    color: #FFF8E1;
+    background: #7B1E1E;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 5px 15px #e06464;
+    animation: rotate 2s alternate infinite;
+}
+
+@keyframes rotate {
+    from {transform: rotate(15deg);}
+    to {transform: rotate(-15deg);}
+}
+
